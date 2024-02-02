@@ -1,0 +1,13 @@
+.article {
+    width: 40%;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.article p {
+    font-size: 20px;
+    font-weight: 500;
+}

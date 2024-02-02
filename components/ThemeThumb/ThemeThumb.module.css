@@ -1,0 +1,25 @@
+
+.aura {
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    cursor: pointer;
+    transition: background .3s ease;
+}
+.thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: all .3s ease-in;
+}
+.thumb.animThumb {
+    transform: translateX(100%);
+}
